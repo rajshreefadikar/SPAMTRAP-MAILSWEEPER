@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAMTRAP</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="software_css.css">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" id="home">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b>SPAMTRAP</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme"><b>About us</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"><b>How do we work?</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#verify"><b>Verify spam</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#report"><b>Report spam</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><b>Contact us</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div id="aboutme">
+  Ever wondered how to control the barrage of spam emails in your inbox?
+  <br>
+  Worry not, because SpamTrap is here to solve the issue for you!
+  <br>
+  Here at SpamTrap, we will keep a track of all the potential spam emails that you might get and block and target them for you, so you can remain spam-free, happily!
+  <br>
+  We know how bothersome it is to go through thousands of emails, with no relation to you, or of any importance. And while doing all of it, we lose track of the important emails that we do need, to have a more cohesive working environment. 
+  <br>
+  We at SpamTrap, are here twenty four-seven at your service. You can reach us through our customer service page, or our contact us page.
+  <br>
+  We are here to make your online experience a fast, and narrowed vision where you can keep track of all your messages!
+  <br>  
+</div>
+<div id="services">
+  <br>
+  <h3>HOW DO WE WORK?</h3>
+  <br>
+  <ul><li>We will target potential spam emails from all over the world.</li></ul>
+  <ul><li>All we ask you to do is enter your email and the email you received the 'potential spam message' from.</li></ul>
+  <ul><li>We will check from our database if the email has been reported spam previously. </li></ul>
+  <ul><li>If it has been, you will be informed within the shortest notice, so you can block the particular email ID.</li></ul>
+  <ul><li>if it hasnt been reported previously,  in simple words, our website will try and track the messages sent by the particular IP address of the email.</li></ul>
+  <ul><li>If mass spamming has been done, we will do a second round of evaluation of to check if they are any promotional or social emails.</li></ul>
+  <ul><li>If they are unknown and the emails are sent randomly, we will be targeting them and marking them as spam.</li></ul>
+  <ul><li>We are here to make your online communication as smooth as we possibly can, and I hope you will help us!</li></ul>
+  <ul><li>If you have any queries or feedback, feel free to reach out to us.</li></ul>
+  <br>
+  <br>
+</div>
+<div id="verify">
+  <p><h3>VERIFY SPAM:</h3><br>
+    Add in the email ID or IP address of the 'potential spam', so we can check in our website, if they are actually spam or just a promotional messenger.</p>
+<div class="container">
+  <form>
+    <label for="email"><b>Email: </b></label>
+    <input type="email" placeholder="Enter Email" id="email" name="email" required>
+
+    <button type="submit" onclick="verify()">Verify</button>
+    <br>
+    <label for="ip"><b>IP Address:</b></label>
+    <input type="text" placeholder="Enter IP Address" id="ip" name="ip" required>
+        
+    <button type="submit" onclick="verify()">Verify</button>
+    <label>
+</div>
+</div>
+<div id="report">
+  <p><h3>REPORT SPAM:</h3>
+    <br>    If you know for certain that a particular email address is from a phishing account, let us know, and we will cross check it from our databases and you can report them.
+    Only do it, if you know for certain, that the email ID is a spam.</p>
+<div class="container">
+  <form>
+    <label for="email"><b>Email: </b></label>
+    <input type="email" placeholder="Enter Email" id="email" name="email" required>
+
+    <button type="submit" onclick="report()">Report</button>
+    <br>
+    <label for="ip"><b>IP Address:</b></label>
+    <input type="text" placeholder="Enter IP Address" id="ip" name="ip" required>
+        
+    <button type="submit" onclick="report()">Report</button>
+    <label>
+</div>
+<div id="contact">
+  <h3>CONTACT US:</h3>
+  <br>
+  <p><a href="tel:9007390921" class="phone"> Phone Number <img src="phone.png" class="images"></a>
+  <br><a href="mailto: fadikarrajshree@gmail.com" class="mail" target="_blank" > Mail  <img src="mail.png" class="images"></a>
+  <br><a class="mail" href="https://www.google.com/maps/place/Kolkata,+West+Bengal/@22.6757521,88.0495316,10z/data=!3m1!4b1!4m5!3m4!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895" target="_blank"> Kolkata, West Bengal  <img src="map.png" class="images"></a>
+  <br></p></div>
+</div> 
+<body>
+</html>

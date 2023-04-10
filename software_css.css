@@ -1,0 +1,158 @@
+
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3%;
+  padding-bottom: 0;
+  background-image: url("bg.webp");
+  background-repeat:repeat-y;
+  background-size:contain;
+  background-position: center;
+  }
+h1{
+  margin-bottom:5%;
+}
+#heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 8rem;
+  font-style: italic;
+}
+input[type=email],input[type=password],input[type=text] {
+  width: 100%;
+  padding: 2%;
+  margin: 8px 0px;
+  display: inline-block;
+  font-size: 1rem;
+ 
+}
+form{
+  height: 100%;
+}
+
+button {
+  background-color: #7ed186;
+  color: white;
+  padding: 14px 20px;
+  margin: 1%;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ef0000;
+}
+
+
+img.avatar {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 16px;
+  margin-right: 10%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.main{
+  display: flex;
+  margin-top: 5%;
+  padding:0;
+}
+.navbar-brand{
+  font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 5rem;
+  margin-right: 15%;
+  margin-left: 5%;;
+}
+.navbar-nav{
+  font-size: 1.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.nav{
+  right: 20px;
+}
+#home{
+  background-color: rgb(226, 181, 188);
+
+}
+#services{
+  margin: 20px;
+  font-size: 20px;
+}
+#aboutme{
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px;
+}
+
+#verify{
+  margin: 20px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#report{
+  margin: 20px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  opacity: 0.35;
+}
+
+.phone:hover{
+  color: skyblue;
+}
+.mail:hover{
+  color: skyblue;
+}
+.maps:hover{
+  color: skyblue;
+}
+.github:hover{
+  color: skyblue;
+}
+.insta:hover{
+color: skyblue;
+}
+.images{
+width: 30px;
+height: 30px;
+
+}
+#contacts{
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+}
